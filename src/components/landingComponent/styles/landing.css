@@ -1,0 +1,15 @@
+
+.landing-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("https://picsum.photos/1900");
+    background-position: center;
+    background-size: cover;
+}
+.landing-wrapper p{
+    color:white;
+    font-size: 100px;
+    text-shadow: 2px 2px #000;
+}

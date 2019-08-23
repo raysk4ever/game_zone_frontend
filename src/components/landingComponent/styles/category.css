@@ -1,0 +1,40 @@
+.category-main-wrapper{
+    background-color: rgba(0, 0, 0, 0.863);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.category-main-wrapper p{
+    color: #fff;
+    font-size: 50px;
+}
+
+.category-list-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;        
+}
+
+.category-card{
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: center;
+    max-width: 210px;
+    box-shadow: 2px 2px 3px 0px rgba(54, 54, 54, 0.466);
+    margin: 10px;
+}
+.category-card img{
+    width: 100%;
+}
+
+.category-card p{
+    text-align: center;
+    color:#000;
+    font-size: 16px;
+}
+
+
+
